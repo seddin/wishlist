@@ -1,0 +1,170 @@
+@font-face {
+	font-family: Roboto;
+	src: url(fonts/Roboto-Medium.ttf);
+}
+.container {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to bottom, #D9E9FF 0%, #D9E9FF 100%); /* lol */
+}
+
+.frame {
+	position: relative;
+	width: 240px;
+	height: 410px;
+	margin: 80px 500px;
+	border-radius: 15px;
+	background: linear-gradient(#FFFFFF 0%, #F6F9FE 50%, #FFFFFF 100%);
+	box-shadow: 1px 1px 10px 0 #ccc;
+	font-family: 'Roboto', sans-serif;
+}
+
+.header {
+	position: relative;
+	display: block;
+	margin: auto;
+	width: 85%;
+	top: 10px;
+	color: #374761;
+}
+.lines, .title, .points, .seen, .want, .like {
+	position: relative;
+	display: inline-block;
+}
+
+.title {
+	margin-left: 50px;
+} 
+.points {
+	margin-left: 47px;
+}
+
+.horizontal-menu {
+	position: relative;
+	display: block;
+	margin: auto;
+	width: 85%;
+	top: 25px;
+	
+}
+
+.seen {
+	color: #A2AAB5;
+}
+
+.want {
+	width: 54px;
+	text-align: center;
+	color: #92BFFF;
+	margin-left: 40px;
+	background-color: #fff;
+	border-radius: 15px;
+	box-shadow: 1px 1px 17px 0 #ccc;
+}
+
+.like {
+	color: #A2AAB5;
+	margin-left: 36px;
+}
+
+.boxes {
+	position: relative;
+	display: block;
+	margin: auto;
+	width: 85%;
+	top: 45px;
+}
+
+.console {
+	position: relative;
+	display: block;
+	float: left;
+	width: 96px;
+	background: #fff;
+	border-radius: 15px;
+	box-shadow: 1px 1px 17px 0 #ccc;
+	margin-right: 6px;
+	margin-top: 10px;
+	padding: 4px;
+	box-sizing: border-box;
+}
+
+.console .heart {
+	position: absolute;
+	left: 75px;
+	color: #D2DBE6;
+	z-index: 10;
+	color: #FF87A2;
+}
+
+.console .image {
+	position: relative;
+	left: 7px;
+	top: 8px;
+}
+
+.console .name {
+	position: relative;
+	color: #506175;
+	top: 4px;
+	left: 2px;
+
+}
+
+.console .brand {
+	position: relative;
+	color: #CDD0D7;
+	font-size: 12px;
+	top: 4px;
+	left: 2px;
+}
+
+.console .check {
+	position: relative;
+	color: #85BAFF;
+	top: -30px;
+	left: 75px;
+}
+
+.footer {
+	position: relative;
+	width: 85%;
+	height: 10%;
+	margin: auto;
+	color: #BCC0C9;
+	font-size: 10px;
+	top: 70px;
+}
+
+.plus {
+	position: relative;
+	width: 60px;
+	height: 60px;
+	top: 180px;
+	left: 92px;
+	border-radius: 50%;
+	background: #fff;
+	box-shadow: 1px 1px 17px 0 #ccc;
+}
+
+.plus .line-1 {
+	position: relative;
+	width: 30px;
+	height: 5px;
+	top: 30px;
+	left: 15px;
+	border-radius: 5px;
+	background-color: #8AB9FF;
+}
+
+.plus .line-2 {
+	position: relative;
+	width: 30px;
+	height: 4px;
+	top: 25px;
+	left: 15px;
+	border-radius: 5px;
+	background-color: #8AB9FF;
+	transform: rotate(90deg);
+}
